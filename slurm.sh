@@ -12,4 +12,4 @@
 
 source /home/Student/s4655393/demo/bin/activate /home/Student/s4655393/gputestslurm
 
-pyhon main.py 
+python main.py 
