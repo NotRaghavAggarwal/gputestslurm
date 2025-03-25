@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1                            # Number of tasks (1 task in this case)
 #SBATCH --cpus-per-task=16                    # Number of CPUs per task (adjust as needed)
 #SBATCH --mem=32G                           # Memory per node
-#SBATCH --partition=gpu                      # Specify the GPU partition, adjust if needed
+#SBATCH --partition=p100-grind                      # Specify the GPU partition, adjust if needed
 #SBATCH --gres=gpu:1                         # Request 1 GPU
 
 #SBATCH --mail-type=ALL                       # Email notifications for job begin, end, and failure
